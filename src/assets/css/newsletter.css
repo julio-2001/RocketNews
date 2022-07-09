@@ -5,17 +5,18 @@
 }
 
 
+
 .containerCa{
     width: 50%;
     height: 100vh;
     background: black;
+    z-index: 1000;
 }
 
 
 .containerCa_area{
     width: 115%;
     height: 100vh;
-    background: rgb(188, 66, 66,0.5);
 }
 
 
@@ -50,7 +51,7 @@
 
 .containerCa .containerCa_area .containerCa_area_newsletter p {
     margin: 0 30px;
-    color: #4d4d4e;
+    color: #88888d;
     font-size: 14px;
     font-weight: 400;
 }
@@ -59,7 +60,6 @@
     margin: 50px 30px;
     width: 100%;
     height: 84px;
-    background: gray;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -76,17 +76,67 @@
     display: flex;
 }
 
-
-
-
 .containerCa .containerCa_area .containerCa_area_newsletter .containerCa_area_newsletter_inputEmail .containerCa_area_newsletter_inputEmail_separador  #inputEmail{
-   height: 48px;
-    width: 85%;
+    height: 48px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-left: 5px solid #04d361;
+    transition: 0.8s;
 }
 
+.containerCa .containerCa_area .containerCa_area_newsletter .containerCa_area_newsletter_inputEmail .containerCa_area_newsletter_inputEmail_separador  #inputEmail:invalid{
+    border-left: 5px solid #cc0000;
+}
 
-.containerCa_area_newsletter_inputEmail .containerCa_area_newsletter_inputEmail_separador #iconeSeta{
+.containerCa_area_newsletter_inputEmail_separador_quadrado{
+    width:48px;
+    height: 48px;
+    background: #8257e5;
+    border: none;
+    cursor: pointer;
+}
+
+.containerCa_area_newsletter_inputEmail .containerCa_area_newsletter_inputEmail_separador .containerCa_area_newsletter_inputEmail_separador_quadrado #iconeSeta{
+    position: relative;
+    top: 5px;
+    max-width: 24px;
+    height: 24px;
+}
+
+.containerCa .containerCa_link{
     display: flex;
-    left: 0;
-    align-items: flex-end;
+    margin: 0 30px;
+}
+
+.containerCa .containerCa_link a{
+    text-decoration: none;
+    display: flex;
+    color:#9570ec ;
+}
+
+.containerCa .containerCa_link #iconeLinkSeta{
+    margin: 0 5px;
+}
+
+body{
+    display:flex ; 
+    font-family: 'Work Sans', sans-serif;
+    
+} 
+
+#imgBackground{
+    background-image: url(/src/assets/img/image.jpg); 
+    width: 60%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    background-position: 75%;
+    
+
+    
+    
 }
