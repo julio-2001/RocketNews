@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.containerCa{
+    width: 50%;
+    height: 100vh;
+    background: black;
+}
+
+
+.containerCa_area{
+    width: 115%;
+    height: 100vh;
+    background: rgb(188, 66, 66,0.5);
+}
+
+
+.containerCa .containerCa_area .containerCa_area_newsletter #logo{
+    margin: 50px 30px;
+    max-width: 389px;
+    max-height: 94px;
+    transition: 0.5s ;
+    cursor: pointer;
+}
+
+
+.containerCa .containerCa_area .containerCa_area_newsletter #logo:hover{
+    transform: scale(1.1);
+}
+
+.containerCa .containerCa_area .containerCa_area_newsletter h2{
+    color: #08c05e;
+    margin: 0 30px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.15px;
+}
+
+
+.containerCa .containerCa_area .containerCa_area_newsletter p span{
+    color: white;
+    display: flex;
+    margin: 8.56px 0;
+    
+}
+
+.containerCa .containerCa_area .containerCa_area_newsletter p {
+    margin: 0 30px;
+    color: #4d4d4e;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.containerCa .containerCa_area .containerCa_area_newsletter .containerCa_area_newsletter_inputEmail{
+    margin: 50px 30px;
+    width: 100%;
+    height: 84px;
+    background: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.containerCa .containerCa_area .containerCa_area_newsletter .containerCa_area_newsletter_inputEmail label{
+    font-size: 14px;
+    font-weight: 700;
+    color:#A8A8A8;
+    display: flex;
+}
+
+.containerCa_area_newsletter_inputEmail_separador{
+    display: flex;
+}
+
+
+
+
+.containerCa .containerCa_area .containerCa_area_newsletter .containerCa_area_newsletter_inputEmail .containerCa_area_newsletter_inputEmail_separador  #inputEmail{
+   height: 48px;
+    width: 85%;
+}
+
+
+.containerCa_area_newsletter_inputEmail .containerCa_area_newsletter_inputEmail_separador #iconeSeta{
+    display: flex;
+    left: 0;
+    align-items: flex-end;
+}
